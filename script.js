@@ -32,19 +32,6 @@ function main(button){
     check();
 }
 
-function reset(){
-    b1.innerHTML = "";
-    b2.innerHTML = "";
-    b3.innerHTML = "";
-    b4.innerHTML = "";
-    b5.innerHTML = "";
-    b6.innerHTML = "";
-    b7.innerHTML = "";
-    b8.innerHTML = "";
-    b9.innerHTML = "";
-    n = 1;
-}
-
 function check(){
     if ((b1.innerHTML == "X" && b2.innerHTML == "X" && b3.innerHTML == "X") || (b1.innerHTML == "O" && b2.innerHTML == "O" && b3.innerHTML == "O")){
         b1.style.backgroundColor = "green";
@@ -86,4 +73,26 @@ function check(){
         b5.style.backgroundColor = "green";
         b7.style.backgroundColor = "green";
     }
+}
+
+function reset(){
+    b1.innerHTML = "";
+    b2.innerHTML = "";
+    b3.innerHTML = "";
+    b4.innerHTML = "";
+    b5.innerHTML = "";
+    b6.innerHTML = "";
+    b7.innerHTML = "";
+    b8.innerHTML = "";
+    b9.innerHTML = "";
+    n = 1;
+    b1.style.backgroundColor = "white";
+    b2.style.backgroundColor = "white";
+    b3.style.backgroundColor = "white";
+    b4.style.backgroundColor = "white";
+    b5.style.backgroundColor = "white";
+    b6.style.backgroundColor = "white";
+    b7.style.backgroundColor = "white";
+    b8.style.backgroundColor = "white";
+    b9.style.backgroundColor = "white";
 }
