@@ -34,14 +34,15 @@ body{
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
     margin: 5vw;
     /* border: 1px solid white; */
-    padding: 10px;
-    margin: 10px;
     background-color: white;
+    width: 20vw;
+    height: 20vh;
+    font-size: 10vw;
 }
 
 #b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover, #b7:hover, #b8:hover, #b9:hover{
-    background-color: white;
-    color: black;
+    background-color: red;
+    color: white;
 }
 
 #b1, #b2, #b4, #b5{
